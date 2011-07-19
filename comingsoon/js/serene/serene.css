@@ -1,0 +1,148 @@
+/* Core styles */
+
+.serene-outer {
+	z-index: 9999;
+	position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.serene-overlay,
+.serene-stage {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.serene-overlay,
+.serene-stage,
+.serene-stage img {
+	display: none;
+}
+
+/* Theme styles */
+
+.serene-overlay {
+    background: #000000;
+}
+
+.serene-controls-outer {    
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -33.5px;
+    display: none;
+}
+
+.serene-controls {    
+    background-image: url(images/opacity-80-rep.png);
+    background-position: left top;
+    background-repeat: repeat;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px;
+    display: none;
+    height: 19px;
+}
+
+.serene-prev,
+.serene-play,
+.serene-pause,
+.serene-next {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 19px;
+    width: 21px;
+    float: left;
+}
+
+.serene-play,
+.serene-pause {
+    display: none;  
+}
+
+.serene-loading-wrap {  
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;    
+    background-image: url(images/opacity-80-rep.png);
+    background-position: left top;
+    background-repeat: repeat;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.serene-close-wrap {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-image: url(images/opacity-80-rep.png);
+    background-position: left top;
+    background-repeat: repeat;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.serene-loading {
+    background: url(images/loading.gif) no-repeat top left;
+    width: 16px;
+    height: 11px;
+}
+
+.serene-prev {
+    background-image: url(images/backward.png);
+    left: 4px;
+}
+
+.serene-prev:hover {
+    background-image: url(images/backward1.png);
+}
+
+.serene-play {
+    background-image: url(images/play.png);
+    left: 27px;
+}
+
+.serene-play:hover {
+    background-image: url(images/play1.png);
+}
+
+.serene-pause {
+    background-image: url(images/pause.png);
+    left: 27px;
+}
+
+.serene-pause:hover {
+    background-image: url(images/pause1.png);
+}
+
+.serene-next {  
+    background-image: url(images/forward.png);
+    left: 50px;
+}
+
+.serene-next:hover {
+    background-image: url(images/forward1.png);
+}
+
+.serene-close {
+    background-image: url(images/close.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 19px;
+    width: 21px;
+}
+
+.serene-close:hover {
+    background-image: url(images/close1.png);
+}

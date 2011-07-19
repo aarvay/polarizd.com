@@ -1,0 +1,347 @@
+/*General styles*/
+
+.iphorm-container {
+    margin: 0 auto;
+}
+
+.iphorm-wrapper {
+    margin: 0 auto;
+}
+
+.iphorm-message p {
+    text-align: center;
+}
+
+.iphorm-inner {
+    margin: 0px;
+}
+.iphorm-outer h3 {
+	padding-bottom: 10px;
+	padding-top: 0;
+	margin-top: 30px;
+}
+.iphorm-inner .form-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0099FF;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border: 1px solid #C6C6C6;
+    background-color: #FFFFFF;
+    background: url('../images/button_bg.png') repeat center top;
+    text-shadow: #F5F5F5 1px 1px 0px;
+}
+.iphorm-inner .captcha-element-wrapper {
+	width: 320px;
+	float: left;
+}
+.iphorm-inner .submit-button-wrapper {
+	float: right;
+	width: 160px;
+}
+/*input, select and textarea styles*/
+
+.iphorm-inner .input-wrapper {
+}
+
+.iphorm-inner .input-wrapper input,
+.iphorm-inner .input-wrapper select,
+.iphorm-inner .input-wrapper textarea {
+	color: #cccccc;
+	background-color: #070707;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	width: 446px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #090909;
+	border-left-color: #090909;
+	border-bottom-width: 1px;
+	border-bottom-color: #212121;
+	-webkit-box-shadow: inset 0px -1px 0px #000;
+	-moz-box-shadow: inset 0px -1px 0px #000;
+	box-shadow: inset 0px -1px 0px #000;
+}
+
+.iphorm-inner .input-wrapper input:focus,
+.iphorm-inner .input-wrapper select:focus,
+.iphorm-inner .input-wrapper textarea:focus {
+	color: #fff;
+	background-image: none;
+	border-top-color: #212121;
+	border-left-color: #212121;
+	border-right-color: #212121;
+	-webkit-box-shadow: inset 0px 3px 15px #000;
+	-moz-box-shadow: inset 0px 3px 15px #000;
+	box-shadow: inset 0px 3px 15px #000;
+	font-weight: normal;
+}
+.iphorm-inner label.check-box input {
+    width: 20px;
+}
+
+.subject-input-wrapper input#subject {
+	float: left;
+}
+.subject-input-wrapper select#subject {
+	background-image: none;
+}
+
+.iphorm-inner .captcha-element-wrapper input {
+	width: 110px;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 1px;
+}
+
+.iphorm-inner select option {
+    margin: 4px;
+}
+
+/*Label style*/
+
+.iphorm-inner .element-wrapper label {
+    line-height: 18px;
+    float: left;
+}
+
+.iphorm-inner label.check-box {
+    display: block;
+    font-weight: normal;
+}
+.iphorm-inner .red {
+    font-weight: normal;
+    color: #CC0000;
+}
+
+/*Error styles*/
+
+.iphorm-inner ul.form-errors {
+    margin: 0;
+    padding: 0;
+    display: none;
+	margin-right: 24px;
+}
+
+.iphorm-inner ul.form-errors li {
+    background-image: url(../images/err.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    list-style-type: none;
+    color: #CC0000;
+    background-color: #F3CAC7;
+    margin-top: 5px;
+    margin-right: 1px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.iphorm-inner div.error-message {
+    background-color: #F3CAC7;
+    border: 1px solid #FF7E7E;
+    margin-bottom: 5px;
+}
+
+.iphorm-inner div.message {
+    padding: 5px;   
+}
+
+/*Non JS error message*/
+
+.iphorm-inner ul.errors-no-js li {
+    margin-left: 0px;
+    line-height: 22px;
+    padding-left: 0px;
+    list-style-type: none;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+}
+
+.iphorm-inner ul.errors-no-js li ul li {
+    background-image: url(../images/err.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    list-style-type: none;
+    color: #CC0000;
+    line-height: 16px;
+    background-color: #F3CAC7;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+/*Other form styles*/
+
+.iphorm-inner .message-element {
+    height: 120px;
+    width: 260px;   
+}
+
+.iphorm-inner .captcha-hidden-wrapper {
+    display: none;
+}
+
+.iphorm-container .element-wrapper, .iphorm-container .button-wrapper {
+	padding-bottom: 10px;
+}
+
+.iphorm-inner a.cancel-button {
+    background-image: url(../images/close.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin-top: 0px;
+	margin-left: -11px;
+    padding-right: 0px;
+	position: relative;
+	z-index: 100;
+}
+
+.iphorm-inner .element-wrapper p.description {
+    margin: 2px;
+    font-size: 11px;
+    font-style: italic;
+    padding: 0;
+}
+
+.js-enabled .iphorm-inner label.hide-js {
+	display: none;	
+}
+
+/*Send button styles*/
+
+.iphorm-inner .submit-button-input-wrapper {
+    height: 32px;
+    font-size: 15px;
+}
+
+.iphorm-inner .submit-button-input-wrapper input {
+	display: block;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	height: 30px;
+	line-height: 20px;
+	width: 100px;
+	text-align: center;
+	padding-top: 2px;
+	padding-right: 25px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	display: inline-block;
+	color: #FFA200;
+	font-size: 18px;
+	background-color: #070707;
+	text-shadow: 1px 1px 0px #000;
+	border: 1px solid #000;
+	-webkit-box-shadow: 0px 1px 0px #000;
+	-moz-box-shadow: 0px 1px 0px #000;
+	box-shadow: 0px 1px 0px #000;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-image: url(../../images/up-bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	float: right;
+	margin-right: 24px;
+}
+
+.iphorm-inner .submit-button-input-wrapper input:hover {
+    text-decoration: none;
+	-webkit-box-shadow: 0px 1px 0px #000;
+	-moz-box-shadow: 0px 1px 0px #000;
+	box-shadow: 0px 1px 0px #000;
+	position: relative;
+	top: 2px;
+}
+
+.iphorm-inner .submit-button-input-wrapper input:active {
+    position: relative;
+    top: 1px; 
+	-webkit-box-shadow: 0px 0px 0px #000;
+	-moz-box-shadow: 0px 0px 0px #000;
+	box-shadow: 0px 0px 0px #000; 
+}
+
+.iphorm-inner .submit-button-input-wrapper input::-moz-focus-inner  {
+    border: 0;
+}
+
+.iphorm-inner .submit-button-wrapper div.loading-wrapper {
+    float: left;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.iphorm-inner .submit-button-wrapper div.loading-wrapper .loading {
+    display: none;
+}
+
+/*Captcha*/
+
+.iphorm-inner .captcha-img {
+    float: left;
+    margin-left: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/*Success (message sent)*/
+
+.iphorm-inner .success-message {
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-image: url('../images/success.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.iphorm-inner .success-message img {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/* Example-specific styles */
+
+.iphorm-inner div.multi_select-input-wrapper select {
+    height: 75px;
+    width: 130px;
+}
+
+.iphorm-inner div.textarea_input-element-wrapper textarea {
+    height: 120px;
+    width: 340px;   
+}
